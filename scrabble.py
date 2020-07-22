@@ -14,12 +14,12 @@ def score_word(word):
     point_total += letter_to_points.get(letter,0)
   return (point_total)
 
-brownie_points = score_word("BROWNIE")
+friedrice_points = score_word("FRIEDRICE")
 
-print(brownie_points)
+print(friedrice_points)
 
 
-player_to_words = {"player1":["BLUE", "TENNIS", "EXIT"],"wordNerd":["EARTH", "EYES", "MACHINE"], "Lexi Con":["ERASER", "BELLY", "HUSKY"], "Prof Reader":["ZAP","COMA", "PERIOD"]}
+player_to_words = {"player1":["DOOR", "BALL", "FOOD"],"player2":["TODAY", "FOOT", "ROBOT"], "player3":["PENCIL", "FRIEND", "PLATE"], "player4":["APPLE","DEATH", "FINISH"]}
 
 player_to_points = {}
 
